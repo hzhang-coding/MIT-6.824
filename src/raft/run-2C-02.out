@@ -1,0 +1,125 @@
+Test (2C): basic persistence ...
+Leader is 1
+Leader is 1
+Leader is 1
+Leader is 0
+Leader is 0
+  ... Passed --  10.7  3  254   28748    7
+Test (2C): more persistence ...
+Leader is 0
+Leader is 3
+Leader is 1
+Leader is 4
+Leader is 2
+Leader is 0
+  ... Passed --  33.0  5 1759  182070   24
+Test (2C): partitioned leader and one follower crash, leader restarts ...
+Leader is 2
+Leader is 2
+  ... Passed --   4.1  3  100   12535    5
+Test (2C): Figure 8 ...
+Leader is 2
+Leader is 0
+Leader is 3
+Leader is 1
+Leader is 4
+Leader is 3
+Leader is 0
+Leader is 1
+Leader is 1
+Leader is 2
+Leader is 2
+Leader is 3
+Leader is 3
+Leader is 0
+Leader is 2
+Leader is 2
+Leader is 2
+Leader is 1
+Leader is 0
+Leader is 0
+Leader is 2
+Leader is 2
+Leader is 3
+Leader is 3
+Leader is 1
+Leader is 2
+Leader is 4
+Leader is 4
+Leader is 0
+Leader is 2
+Leader is 1
+Leader is 4
+Leader is 4
+Leader is 0
+Leader is 3
+Leader is 2
+Leader is 3
+Leader is 0
+Leader is 0
+Leader is 3
+Leader is 0
+Leader is 0
+Leader is 1
+Leader is 3
+Leader is 2
+Leader is 0
+Leader is 1
+Leader is 4
+Leader is 0
+Leader is 0
+Leader is 2
+Leader is 2
+Leader is 2
+Leader is 1
+Leader is 1
+Leader is 0
+Leader is 0
+Leader is 4
+Leader is 4
+Leader is 4
+Leader is 2
+Leader is 2
+Leader is 1
+Leader is 1
+  ... Passed --  30.1  5 1370  194141   31
+Test (2C): unreliable agreement ...
+Leader is 3
+  ... Passed --   2.1  5  442  121560  246
+Test (2C): Figure 8 (unreliable) ...
+Leader is 3
+Leader is 4
+Leader is 1
+Leader is 2
+Leader is 0
+Leader is 3
+Leader is 4
+Leader is 1
+Leader is 0
+Leader is 3
+Leader is 1
+Leader is 1
+Leader is 2
+Leader is 0
+Leader is 4
+Leader is 2
+Leader is 1
+Leader is 0
+Leader is 2
+Leader is 2
+Leader is 1
+Leader is 2
+Leader is 3
+  ... Passed --  34.4  5 3642  279448  419
+Test (2C): churn ...
+Leader is 4
+Leader is 3
+  ... Passed --  16.2  5 2721  727746  977
+Test (2C): unreliable churn ...
+Leader is 1
+Leader is 1
+Leader is 2
+Leader is 4
+  ... Passed --  16.2  5 1376  312445  340
+PASS
+ok  	6.824/raft	147.015s

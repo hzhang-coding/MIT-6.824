@@ -1,0 +1,34 @@
+Test: one client (3A) ...
+Leader of term 1 is 1
+  ... Passed --  15.2  5  5896  598
+Test: ops complete fast enough (3A) ...
+Leader of term 1 is 0
+--- FAIL: TestSpeed3A (46.30s)
+    test_test.go:419: Operations completed too slowly 45.620372ms/op > 33.333333ms/op
+Test: many clients (3A) ...
+Leader of term 1 is 3
+race: limit on 8128 simultaneously alive goroutines is exceeded, dying
+exit status 66
+FAIL	6.824/kvraft	247.283s
+Test: one client (3A) ...
+Leader of term 1 is 1
+  ... Passed --  15.2  5  5612  565
+Test: ops complete fast enough (3A) ...
+Leader of term 1 is 0
+--- FAIL: TestSpeed3A (46.90s)
+    test_test.go:419: Operations completed too slowly 46.424544ms/op > 33.333333ms/op
+Test: many clients (3A) ...
+Leader of term 1 is 2
+race: limit on 8128 simultaneously alive goroutines is exceeded, dying
+exit status 66
+FAIL	6.824/kvraft	297.094s
+Test: one client (3A) ...
+Leader of term 1 is 0
+  ... Passed --  15.2  5  5206  513
+Test: ops complete fast enough (3A) ...
+Leader of term 1 is 2
+signal: interrupt
+FAIL	6.824/kvraft	127.801s
+Test: one client (3A) ...
+signal: interrupt
+FAIL	6.824/kvraft	0.342s

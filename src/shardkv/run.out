@@ -1,0 +1,1479 @@
+Test: static shards ...
+111
+Leader of term 1 is 2
+Leader of term 1 is 0
+Leader of term 1 is 1
+Execute 3
+100 add config 0
+{0 [0 0 0 0 0 0 0 0 0 0] map[]}
+[false false false false false false false false false false] [0 0 0 0 0 0 0 0 0 0]
+
+Execute 3
+100 add config 0
+{0 [0 0 0 0 0 0 0 0 0 0] map[]}
+[false false false false false false false false false false] [0 0 0 0 0 0 0 0 0 0]
+
+Execute 3
+100 add config 0
+{0 [0 0 0 0 0 0 0 0 0 0] map[]}
+[false false false false false false false false false false] [0 0 0 0 0 0 0 0 0 0]
+
+Execute 3
+102 add config 0
+{0 [0 0 0 0 0 0 0 0 0 0] map[]}
+[false false false false false false false false false false] [0 0 0 0 0 0 0 0 0 0]
+
+Execute 3
+102 add config 0
+Execute 3
+102 add config 0
+{0 [0 0 0 0 0 0 0 0 0 0] map[]}
+[false false false false false false false false false false] [0 0 0 0 0 0 0 0 0 0]
+
+{0 [0 0 0 0 0 0 0 0 0 0] map[]}
+[false false false false false false false false false false] [0 0 0 0 0 0 0 0 0 0]
+
+222
+333
+Begin Put
+Execute 3
+102 add config 1
+{1 [100 100 100 100 100 100 100 100 100 100] map[100:[server-100-0 server-100-1 server-100-2]]}
+[false false false false false false false false false false] [1 1 1 1 1 1 1 1 1 1]
+
+Execute 3
+102 add config 1
+{1 [100 100 100 100 100 100 100 100 100 100] map[100:[server-100-0 server-100-1 server-100-2]]}
+[false false false false false false false false false false] [1 1 1 1 1 1 1 1 1 1]
+
+Execute 3
+102 add config 1
+{1 [100 100 100 100 100 100 100 100 100 100] map[100:[server-100-0 server-100-1 server-100-2]]}
+[false false false false false false false false false false] [1 1 1 1 1 1 1 1 1 1]
+
+Execute 3
+102 add config 2
+Leader of term 1 is 1
+{2 [100 100 100 100 100 101 101 101 101 101] map[100:[server-100-0 server-100-1 server-100-2] 101:[server-101-0 server-101-1 server-101-2]]}
+[false false false false false false false false false false] [2 2 2 2 2 2 2 2 2 2]
+
+Execute 3
+102 add config 2
+{2 [100 100 100 100 100 101 101 101 101 101] map[100:[server-100-0 server-100-1 server-100-2] 101:[server-101-0 server-101-1 server-101-2]]}
+Execute 3
+[false false false false false false false false false false] [2 2 2 2 2 2 2 2 2 2]
+
+102 add config 2
+{2 [100 100 100 100 100 101 101 101 101 101] map[100:[server-100-0 server-100-1 server-100-2] 101:[server-101-0 server-101-1 server-101-2]]}
+[false false false false false false false false false false] [2 2 2 2 2 2 2 2 2 2]
+
+Execute 3
+101 add config 0
+{0 [0 0 0 0 0 0 0 0 0 0] map[]}
+[false false false false false false false false false false] [0 0 0 0 0 0 0 0 0 0]
+
+Execute 3
+101 add config 0
+{0 [0 0 0 0 0 0 0 0 0 0] map[]}
+[false false false false false false false false false false] [0 0 0 0 0 0 0 0 0 0]
+
+Execute 3
+101 add config 0
+{0 [0 0 0 0 0 0 0 0 0 0] map[]}
+[false false false false false false false false false false] [0 0 0 0 0 0 0 0 0 0]
+
+Execute 3
+101 add config 1
+{1 [100 100 100 100 100 100 100 100 100 100] map[100:[server-100-0 server-100-1 server-100-2]]}
+[false false false false false false false false false false] [1 1 1 1 1 1 1 1 1 1]
+
+Execute 3
+101 add config 1
+{1 [100 100 100 100 100 100 100 100 100 100] map[100:[server-100-0 server-100-1 server-100-2]]}
+[false false false false false false false false false false] [1 1 1 1 1 1 1 1 1 1]
+
+Execute 3
+100 add config 1
+{1 [100 100 100 100 100 100 100 100 100 100] map[100:[server-100-0 server-100-1 server-100-2]]}
+[true true true true true true true true true true] [1 1 1 1 1 1 1 1 1 1]
+
+Execute 3
+101 add config 1
+Execute 3
+100 add config 1
+{1 [100 100 100 100 100 100 100 100 100 100] map[100:[server-100-0 server-100-1 server-100-2]]}
+[true true true true true true true true true true] [1 1 1 1 1 1 1 1 1 1]
+
+{1 [100 100 100 100 100 100 100 100 100 100] map[100:[server-100-0 server-100-1 server-100-2]]}
+[false false false false false false false false false false] [1 1 1 1 1 1 1 1 1 1]
+
+Execute 3
+100 add config 1
+{1 [100 100 100 100 100 100 100 100 100 100] map[100:[server-100-0 server-100-1 server-100-2]]}
+[true true true true true true true true true true] [1 1 1 1 1 1 1 1 1 1]
+
+101 Put
+Execute 3
+101 add config 2
+{2 [100 100 100 100 100 101 101 101 101 101] map[100:[server-100-0 server-100-1 server-100-2] 101:[server-101-0 server-101-1 server-101-2]]}
+[false false false false false false false false false false] [2 2 2 2 2 1 1 1 1 1]
+
+Execute 3
+101 add config 2
+{2 [100 100 100 100 100 101 101 101 101 101] map[100:[server-100-0 server-100-1 server-100-2] 101:[server-101-0 server-101-1 server-101-2]]}
+[false false false false false false false false false false] [2 2 2 2 2 1 1 1 1 1]
+
+Execute 3
+101 add config 2
+{2 [100 100 100 100 100 101 101 101 101 101] map[100:[server-100-0 server-100-1 server-100-2] 101:[server-101-0 server-101-1 server-101-2]]}
+[false false false false false false false false false false] [2 2 2 2 2 1 1 1 1 1]
+
+Execute 3
+100 add config 2
+{2 [100 100 100 100 100 101 101 101 101 101] map[100:[server-100-0 server-100-1 server-100-2] 101:[server-101-0 server-101-1 server-101-2]]}
+[true true true true true true true true true true] [2 2 2 2 2 1 1 1 1 1]
+
+Execute 3
+100 add config 2
+{2 [100 100 100 100 100 101 101 101 101 101] map[100:[server-100-0 server-100-1 server-100-2] 101:[server-101-0 server-101-1 server-101-2]]}
+[true true true true true true true true true true] [2 2 2 2 2 1 1 1 1 1]
+
+Execute 3
+100 add config 2
+{2 [100 100 100 100 100 101 101 101 101 101] map[100:[server-100-0 server-100-1 server-100-2] 101:[server-101-0 server-101-1 server-101-2]]}
+[true true true true true true true true true true] [2 2 2 2 2 1 1 1 1 1]
+
+Execute 5
+101 7 version++
+[false false false false false false false true false false] [2 2 2 2 2 1 1 2 1 1]
+
+Execute 5
+101 6 version++
+[false false false false false false true true false false] [2 2 2 2 2 1 2 2 1 1]
+
+Execute 5
+101 7 version++
+[false false false false false false false true false false] [2 2 2 2 2 1 1 2 1 1]
+
+Execute 5
+101 6 version++
+[false false false false false false true true false false] [2 2 2 2 2 1 2 2 1 1]
+
+Execute 5
+101 7 version++
+[false false false false false false false true false false] [2 2 2 2 2 1 1 2 1 1]
+
+Execute 5
+101 8 version++
+[false false false false false false true true true false] [2 2 2 2 2 1 2 2 2 1]
+
+Execute 5
+101 5 version++
+[false false false false false true true true true false] [2 2 2 2 2 2 2 2 2 1]
+
+Execute 5
+101 9 version++
+[false false false false false true true true true true] [2 2 2 2 2 2 2 2 2 2]
+
+Execute 5
+101 8 version++
+[false false false false false false true true true false] [2 2 2 2 2 1 2 2 2 1]
+
+Execute 5
+101 5 version++
+[false false false false false true true true true false] [2 2 2 2 2 2 2 2 2 1]
+
+Execute 5
+101 9 version++
+[false false false false false true true true true true] [2 2 2 2 2 2 2 2 2 2]
+
+Execute 5
+101 6 version++
+[false false false false false false true true false false] [2 2 2 2 2 1 2 2 1 1]
+
+Execute 5
+101 8 version++
+[false false false false false false true true true false] [2 2 2 2 2 1 2 2 2 1]
+
+Execute 5
+101 5 version++
+[false false false false false true true true true false] [2 2 2 2 2 2 2 2 2 1]
+
+Execute 5
+101 9 version++
+[false false false false false true true true true true] [2 2 2 2 2 2 2 2 2 2]
+
+Execute 4
+100 7 version++
+[true true true true true true true false true true] [2 2 2 2 2 1 1 2 1 1]
+
+Execute 4
+100 7 version++
+[true true true true true true true false true true] [2 2 2 2 2 1 1 2 1 1]
+
+Execute 4
+100 6 version++
+[true true true true true true false false true true] [2 2 2 2 2 1 2 2 1 1]
+
+Execute 4
+100 5 version++
+[true true true true true false false false true true] [2 2 2 2 2 2 2 2 1 1]
+
+Execute 4
+100 8 version++
+[true true true true true false false false false true] [2 2 2 2 2 2 2 2 2 1]
+
+Execute 4
+100 9 version++
+[true true true true true false false false false false] [2 2 2 2 2 2 2 2 2 2]
+
+Execute 4
+100 7 version++
+[true true true true true true true false true true] [2 2 2 2 2 1 1 2 1 1]
+
+Execute 4
+100 6 version++
+[true true true true true true false false true true] [2 2 2 2 2 1 2 2 1 1]
+
+Execute 4
+100 5 version++
+[true true true true true false false false true true] [2 2 2 2 2 2 2 2 1 1]
+
+Execute 4
+Execute 4
+100 6 version++
+100 8 version++
+[true true true true true true false false true true] [2 2 2 2 2 1 2 2 1 1]
+
+Execute 4
+[true true true true true false false false false true] [2 2 2 2 2 2 2 2 2 1]
+
+100 5 version++
+Execute 4
+100 9 version++
+[true true true true true false false false true true] [2 2 2 2 2 2 2 2 1 1]
+
+Execute 4
+100 8 version++
+[true true true true true false false false false false] [2 2 2 2 2 2 2 2 2 2]
+
+[true true true true true false false false false true] [2 2 2 2 2 2 2 2 2 1]
+
+Execute 4
+100 9 version++
+[true true true true true false false false false false] [2 2 2 2 2 2 2 2 2 2]
+
+101 Put
+101 Put
+Execute 1
+apply 1
+result = 9XpLu421q_nLrd8PBY5X
+End Put
+Begin Put
+101 Put
+Execute 1
+apply 1
+Execute 1
+apply 1
+result = 9XpLu421q_nLrd8PBY5X
+result = 9XpLu421q_nLrd8PBY5X
+101 Put
+Execute 1
+apply 1
+result = y9xeCqZAQ7y1rd2OFu5l
+End Put
+Begin Put
+100 Put
+Execute 1
+apply 1
+result = y9xeCqZAQ7y1rd2OFu5l
+100 Put
+Execute 1
+apply 1
+result = y9xeCqZAQ7y1rd2OFu5l
+100 Put
+Execute 1
+apply 1
+result = plaKtma0Rl0n8l4YnanA
+End Put
+Begin Put
+100 Put
+100 Put
+100 Put
+Execute 1
+apply 1
+result = plaKtma0Rl0n8l4YnanA
+Execute 1
+apply 1
+result = plaKtma0Rl0n8l4YnanA
+Execute 1
+apply 1
+result = uVrhkh6EMxUuSPHpK7Lg
+End Put
+Begin Put
+Execute 1
+apply 1
+result = uVrhkh6EMxUuSPHpK7Lg
+100 Put
+100 Put
+Execute 1
+apply 1
+result = uVrhkh6EMxUuSPHpK7Lg
+100 Put
+Execute 1
+apply 1
+result = JGvIiMoUiBJ1hKDgWklR
+End Put
+Begin Put
+100 Put
+Execute 1
+apply 1
+result = JGvIiMoUiBJ1hKDgWklR
+100 Put
+100 Put
+Execute 1
+apply 1
+result = JGvIiMoUiBJ1hKDgWklR
+Execute 1
+apply 1
+result = 8X6Db2XZHJZRmqInHUPH
+End Put
+Begin Put
+100 Put
+Execute 1
+apply 1
+result = 8X6Db2XZHJZRmqInHUPH
+100 Put
+100 Put
+Execute 1
+apply 1
+result = 8X6Db2XZHJZRmqInHUPH
+Execute 1
+apply 1
+result = kyUG8OjIlCZgoBRK3rSN
+End Put
+Begin Put
+101 Put
+Execute 1
+apply 1
+result = kyUG8OjIlCZgoBRK3rSN
+101 Put
+Execute 1
+apply 1
+result = kyUG8OjIlCZgoBRK3rSN
+Execute 1
+apply 1
+result = 1FOaOcv3M-uduSpmCrY6
+End Put
+Begin Put
+101 Put
+Execute 1
+apply 1
+result = 1FOaOcv3M-uduSpmCrY6
+Execute 1
+apply 1
+result = 1FOaOcv3M-uduSpmCrY6
+101 Put
+Execute 1
+apply 1
+result = xppNNA9L7UrC19GU4jEi
+End Put
+Begin Put
+101 Put
+101 Put
+Execute 1
+apply 1
+Execute 1
+result = xppNNA9L7UrC19GU4jEi
+apply 1
+result = xppNNA9L7UrC19GU4jEi
+Execute 1
+apply 1
+result = rdTXHXhVNbNIQoUuTfzn
+End Put
+check 0
+Execute 1
+apply 1
+result = rdTXHXhVNbNIQoUuTfzn
+Execute 1
+apply 1
+result = rdTXHXhVNbNIQoUuTfzn
+Execute 0
+apply 0
+result = 9XpLu421q_nLrd8PBY5X
+check 1
+Execute 0
+apply 0
+result = 9XpLu421q_nLrd8PBY5X
+Execute 0
+apply 0
+result = 9XpLu421q_nLrd8PBY5X
+Execute 0
+apply 0
+result = y9xeCqZAQ7y1rd2OFu5l
+check 2
+Execute 0
+apply 0
+result = y9xeCqZAQ7y1rd2OFu5l
+Execute 0
+apply 0
+result = y9xeCqZAQ7y1rd2OFu5l
+Execute 0
+apply 0
+result = plaKtma0Rl0n8l4YnanA
+check 3
+Execute 0
+apply 0
+result = plaKtma0Rl0n8l4YnanA
+Execute 0
+apply 0
+result = plaKtma0Rl0n8l4YnanA
+Execute 0
+apply 0
+result = uVrhkh6EMxUuSPHpK7Lg
+check 4
+Execute 0
+apply 0
+result = uVrhkh6EMxUuSPHpK7Lg
+Execute 0
+apply 0
+result = uVrhkh6EMxUuSPHpK7Lg
+Execute 0
+apply 0
+result = JGvIiMoUiBJ1hKDgWklR
+check 5
+Execute 0
+apply 0
+result = JGvIiMoUiBJ1hKDgWklR
+Execute 0
+apply 0
+result = JGvIiMoUiBJ1hKDgWklR
+Execute 0
+apply 0
+result = 8X6Db2XZHJZRmqInHUPH
+Execute 0
+apply 0
+result = 8X6Db2XZHJZRmqInHUPH
+check 6
+Execute 0
+apply 0
+result = 8X6Db2XZHJZRmqInHUPH
+Execute 0
+apply 0
+result = kyUG8OjIlCZgoBRK3rSN
+check 7
+Execute 0
+apply 0
+result = kyUG8OjIlCZgoBRK3rSN
+Execute 0
+apply 0
+result = kyUG8OjIlCZgoBRK3rSN
+Execute 0
+apply 0
+result = 1FOaOcv3M-uduSpmCrY6
+check 8
+Execute 0
+apply 0
+result = 1FOaOcv3M-uduSpmCrY6
+Execute 0
+apply 0
+result = 1FOaOcv3M-uduSpmCrY6
+Execute 0
+apply 0
+result = xppNNA9L7UrC19GU4jEi
+check 9
+Execute 0
+apply 0
+result = xppNNA9L7UrC19GU4jEi
+Execute 0
+apply 0
+result = xppNNA9L7UrC19GU4jEi
+Execute 0
+apply 0
+result = rdTXHXhVNbNIQoUuTfzn
+Execute 0
+apply 0
+result = kyUG8OjIlCZgoBRK3rSN
+Execute 0
+apply 0
+result = kyUG8OjIlCZgoBRK3rSN
+Execute 0
+apply 0
+result = kyUG8OjIlCZgoBRK3rSN
+Execute 0
+apply 0
+result = plaKtma0Rl0n8l4YnanA
+Execute 0
+apply 0
+result = uVrhkh6EMxUuSPHpK7Lg
+Execute 0
+apply 0
+result = JGvIiMoUiBJ1hKDgWklR
+Execute 0
+apply 0
+result = plaKtma0Rl0n8l4YnanA
+Execute 0
+apply 0
+result = uVrhkh6EMxUuSPHpK7Lg
+Execute 0
+apply 0
+result = JGvIiMoUiBJ1hKDgWklR
+Execute 0
+apply 0
+result = 8X6Db2XZHJZRmqInHUPH
+Execute 0
+apply 0
+result = plaKtma0Rl0n8l4YnanA
+Execute 0
+apply 0
+result = 8X6Db2XZHJZRmqInHUPH
+Execute 0
+apply 0
+result = uVrhkh6EMxUuSPHpK7Lg
+Execute 0
+apply 0
+result = JGvIiMoUiBJ1hKDgWklR
+Execute 0
+apply 0
+result = 8X6Db2XZHJZRmqInHUPH
+Leader of term 2 is 2
+Execute 3
+101 add config 0
+{0 [0 0 0 0 0 0 0 0 0 0] map[]}
+[false false false false false false false false false false] [0 0 0 0 0 0 0 0 0 0]
+
+Execute 3
+101 add config 1
+{1 [100 100 100 100 100 100 100 100 100 100] map[100:[server-100-0 server-100-1 server-100-2]]}
+[false false false false false false false false false false] [1 1 1 1 1 1 1 1 1 1]
+
+Execute 3
+101 add config 2
+{2 [100 100 100 100 100 101 101 101 101 101] map[100:[server-100-0 server-100-1 server-100-2] 101:[server-101-0 server-101-1 server-101-2]]}
+[false false false false false false false false false false] [2 2 2 2 2 1 1 1 1 1]
+
+Execute 5
+101 7 version++
+[false false false false false false false true false false] [2 2 2 2 2 1 1 2 1 1]
+
+Execute 5
+101 6 version++
+[false false false false false false true true false false] [2 2 2 2 2 1 2 2 1 1]
+
+Execute 5
+101 8 version++
+[false false false false false false true true true false] [2 2 2 2 2 1 2 2 2 1]
+
+Execute 5
+101 5 version++
+[false false false false false true true true true false] [2 2 2 2 2 2 2 2 2 1]
+
+Execute 5
+101 9 version++
+[false false false false false true true true true true] [2 2 2 2 2 2 2 2 2 2]
+
+Execute 1
+apply 1
+result = 9XpLu421q_nLrd8PBY5X
+Execute 1
+apply 1
+result = y9xeCqZAQ7y1rd2OFu5l
+Execute 1
+apply 1
+result = 1FOaOcv3M-uduSpmCrY6
+Execute 1
+apply 1
+result = xppNNA9L7UrC19GU4jEi
+Execute 1
+apply 1
+result = rdTXHXhVNbNIQoUuTfzn
+Execute 0
+apply 0
+result = 9XpLu421q_nLrd8PBY5X
+Execute 0
+apply 0
+result = y9xeCqZAQ7y1rd2OFu5l
+Execute 0
+apply 0
+result = 1FOaOcv3M-uduSpmCrY6
+Execute 0
+apply 0
+result = xppNNA9L7UrC19GU4jEi
+Execute 0
+apply 0
+result = rdTXHXhVNbNIQoUuTfzn
+Execute 3
+Execute 3
+101 add config 0
+{0 [0 0 0 0 0 0 0 0 0 0] map[]}
+[false false false false false false false false false false] [0 0 0 0 0 0 0 0 0 0]
+
+Execute 3
+101 add config 1
+{1 [100 100 100 100 100 100 100 100 100 100] map[100:[server-100-0 server-100-1 server-100-2]]}
+[false false false false false false false false false false] [1 1 1 1 1 1 1 1 1 1]
+
+Execute 3
+101 add config 2
+{2 [100 100 100 100 100 101 101 101 101 101] map[100:[server-100-0 server-100-1 server-100-2] 101:[server-101-0 server-101-1 server-101-2]]}
+[false false false false false false false false false false] [2 2 2 2 2 1 1 1 1 1]
+
+Execute 5
+101 7 version++
+[false false false false false false false true false false] [2 2 2 2 2 1 1 2 1 1]
+
+Execute 5
+101 6 version++
+[false false false false false false true true false false] [2 2 2 2 2 1 2 2 1 1]
+
+Execute 5
+101 8 version++
+[false false false false false false true true true false] [2 2 2 2 2 1 2 2 2 1]
+
+Execute 5
+101 5 version++
+[false false false false false true true true true false] [2 2 2 2 2 2 2 2 2 1]
+
+Execute 5
+101 9 version++
+[false false false false false true true true true true] [2 2 2 2 2 2 2 2 2 2]
+
+Execute 1
+apply 1
+result = 9XpLu421q_nLrd8PBY5X
+Execute 1
+apply 1
+result = y9xeCqZAQ7y1rd2OFu5l
+Execute 1
+apply 1
+result = 1FOaOcv3M-uduSpmCrY6
+Execute 3
+101 add config 0
+{0 [0 0 0 0 0 0 0 0 0 0] map[]}
+[false false false false false false false false false false] [0 0 0 0 0 0 0 0 0 0]
+
+Execute 3
+101 add config 1
+{1 [100 100 100 100 100 100 100 100 100 100] map[100:[server-100-0 server-100-1 server-100-2]]}
+[false false false false false false false false false false] [1 1 1 1 1 1 1 1 1 1]
+
+Execute 1
+apply 1
+result = xppNNA9L7UrC19GU4jEi
+Execute 1
+apply 1
+result = rdTXHXhVNbNIQoUuTfzn
+Execute 0
+apply 0
+result = 9XpLu421q_nLrd8PBY5X
+Execute 0
+apply 0
+result = y9xeCqZAQ7y1rd2OFu5l
+Execute 3
+101 add config 2
+{2 [100 100 100 100 100 101 101 101 101 101] map[100:[server-100-0 server-100-1 server-100-2] 101:[server-101-0 server-101-1 server-101-2]]}
+Execute 0
+apply 0
+[false false false false false false false false false false] [2 2 2 2 2 1 1 1 1 1]
+
+Execute 5
+101 7 version++
+[false false false false false false false true false false] [2 2 2 2 2 1 1 2 1 1]
+
+result = 1FOaOcv3M-uduSpmCrY6
+Execute 0
+apply 0
+result = xppNNA9L7UrC19GU4jEi
+Execute 5
+101 6 version++
+[false false false false false false true true false false] [2 2 2 2 2 1 2 2 1 1]
+
+Execute 5
+101 8 version++
+[false false false false false false true true true false] [2 2 2 2 2 1 2 2 2 1]
+
+Execute 0
+apply 0
+result = rdTXHXhVNbNIQoUuTfzn
+Execute 3
+Execute 5
+101 5 version++
+[false false false false false true true true true false] [2 2 2 2 2 2 2 2 2 1]
+
+Execute 5
+101 9 version++
+[false false false false false true true true true true] [2 2 2 2 2 2 2 2 2 2]
+
+Execute 1
+apply 1
+result = 9XpLu421q_nLrd8PBY5X
+Execute 1
+apply 1
+result = y9xeCqZAQ7y1rd2OFu5l
+Execute 1
+apply 1
+result = 1FOaOcv3M-uduSpmCrY6
+Execute 1
+apply 1
+result = xppNNA9L7UrC19GU4jEi
+Execute 1
+apply 1
+result = rdTXHXhVNbNIQoUuTfzn
+Execute 0
+apply 0
+result = 9XpLu421q_nLrd8PBY5X
+Execute 0
+apply 0
+result = y9xeCqZAQ7y1rd2OFu5l
+Execute 0
+apply 0
+result = 1FOaOcv3M-uduSpmCrY6
+Execute 0
+apply 0
+result = xppNNA9L7UrC19GU4jEi
+Execute 0
+apply 0
+result = rdTXHXhVNbNIQoUuTfzn
+Execute 3
+Execute 0
+apply 0
+result = 9XpLu421q_nLrd8PBY5X
+Execute 0
+apply 0
+result = rdTXHXhVNbNIQoUuTfzn
+Execute 0
+apply 0
+result = 9XpLu421q_nLrd8PBY5X
+Execute 0
+apply 0
+result = 9XpLu421q_nLrd8PBY5X
+Execute 0
+apply 0
+result = rdTXHXhVNbNIQoUuTfzn
+Execute 0
+apply 0
+result = rdTXHXhVNbNIQoUuTfzn
+Execute 0
+apply 0
+result = 9XpLu421q_nLrd8PBY5X
+Execute 0
+apply 0
+result = y9xeCqZAQ7y1rd2OFu5l
+Execute 0
+apply 0
+result = xppNNA9L7UrC19GU4jEi
+Execute 0
+apply 0
+result = y9xeCqZAQ7y1rd2OFu5l
+Execute 0
+apply 0
+result = 9XpLu421q_nLrd8PBY5X
+Execute 0
+apply 0
+result = y9xeCqZAQ7y1rd2OFu5l
+Execute 0
+apply 0
+result = xppNNA9L7UrC19GU4jEi
+Execute 0
+apply 0
+result = y9xeCqZAQ7y1rd2OFu5l
+Execute 0
+apply 0
+result = 1FOaOcv3M-uduSpmCrY6
+Execute 0
+apply 0
+result = 9XpLu421q_nLrd8PBY5X
+Execute 0
+apply 0
+result = y9xeCqZAQ7y1rd2OFu5l
+Execute 0
+apply 0
+result = xppNNA9L7UrC19GU4jEi
+Execute 0
+apply 0
+result = y9xeCqZAQ7y1rd2OFu5l
+Execute 0
+apply 0
+result = 1FOaOcv3M-uduSpmCrY6
+Execute 0
+apply 0
+result = 1FOaOcv3M-uduSpmCrY6
+Execute 0
+apply 0
+result = plaKtma0Rl0n8l4YnanA
+Execute 0
+apply 0
+result = plaKtma0Rl0n8l4YnanA
+Execute 0
+apply 0
+result = plaKtma0Rl0n8l4YnanA
+Execute 0
+apply 0
+result = uVrhkh6EMxUuSPHpK7Lg
+Execute 0
+apply 0
+result = uVrhkh6EMxUuSPHpK7Lg
+Execute 0
+apply 0
+result = uVrhkh6EMxUuSPHpK7Lg
+Execute 0
+apply 0
+result = JGvIiMoUiBJ1hKDgWklR
+Execute 0
+apply 0
+result = JGvIiMoUiBJ1hKDgWklR
+Execute 0
+apply 0
+result = JGvIiMoUiBJ1hKDgWklR
+Execute 0
+apply 0
+result = 8X6Db2XZHJZRmqInHUPH
+Execute 0
+apply 0
+result = 8X6Db2XZHJZRmqInHUPH
+Execute 0
+apply 0
+result = 8X6Db2XZHJZRmqInHUPH
+Execute 0
+apply 0
+result = kyUG8OjIlCZgoBRK3rSN
+Execute 0
+apply 0
+result = kyUG8OjIlCZgoBRK3rSN
+Execute 0
+apply 0
+result = kyUG8OjIlCZgoBRK3rSN
+Execute 0
+apply 0
+result = 1FOaOcv3M-uduSpmCrY6
+Execute 0
+apply 0
+result = 1FOaOcv3M-uduSpmCrY6
+Execute 0
+apply 0
+result = 1FOaOcv3M-uduSpmCrY6
+Execute 0
+apply 0
+result = xppNNA9L7UrC19GU4jEi
+Execute 0
+apply 0
+result = xppNNA9L7UrC19GU4jEi
+Execute 0
+apply 0
+result = xppNNA9L7UrC19GU4jEi
+Execute 0
+apply 0
+result = rdTXHXhVNbNIQoUuTfzn
+  ... Passed
+Test: join then leave ...
+Leader of term 1 is 0
+Leader of term 1 is 0
+Leader of term 1 is 0
+Leader of term 1 is 0
+Execute 3
+100 add config 0
+{0 [0 0 0 0 0 0 0 0 0 0] map[]}
+[false false false false false false false false false false] [0 0 0 0 0 0 0 0 0 0]
+
+Execute 3
+100 add config 0
+{0 [0 0 0 0 0 0 0 0 0 0] map[]}
+Execute 3
+100 add config 0
+{0 [0 0 0 0 0 0 0 0 0 0] map[]}
+[false false false false false false false false false false] [0 0 0 0 0 0 0 0 0 0]
+
+[false false false false false false false false false false] [0 0 0 0 0 0 0 0 0 0]
+
+Execute 3
+101 add config 0
+{0 [0 0 0 0 0 0 0 0 0 0] map[]}
+[false false false false false false false false false false] [0 0 0 0 0 0 0 0 0 0]
+
+Execute 3
+101 add config 0
+{0 [0 0 0 0 0 0 0 0 0 0] map[]}
+[false false false false false false false false false false] [0 0 0 0 0 0 0 0 0 0]
+
+Execute 3
+101 add config 0
+{0 [0 0 0 0 0 0 0 0 0 0] map[]}
+[false false false false false false false false false false] [0 0 0 0 0 0 0 0 0 0]
+
+Execute 3
+102 add config 0
+{0 [0 0 0 0 0 0 0 0 0 0] map[]}
+[false false false false false false false false false false] [0 0 0 0 0 0 0 0 0 0]
+
+Execute 3
+102 add config 0
+{0 [0 0 0 0 0 0 0 0 0 0] map[]}
+[false false false false false false false false false false] [0 0 0 0 0 0 0 0 0 0]
+
+Execute 3
+102 add config 0
+{0 [0 0 0 0 0 0 0 0 0 0] map[]}
+[false false false false false false false false false false] [0 0 0 0 0 0 0 0 0 0]
+
+Execute 3
+100 add config 1
+{1 [100 100 100 100 100 100 100 100 100 100] map[100:[server-100-0 server-100-1 server-100-2]]}
+[true true true true true true true true true true] [1 1 1 1 1 1 1 1 1 1]
+
+Execute 3
+100 add config 1
+{1 [100 100 100 100 100 100 100 100 100 100] map[100:[server-100-0 server-100-1 server-100-2]]}
+[true true true true true true true true true true] [1 1 1 1 1 1 1 1 1 1]
+
+Execute 3
+100 add config 1
+{1 [100 100 100 100 100 100 100 100 100 100] map[100:[server-100-0 server-100-1 server-100-2]]}
+[true true true true true true true true true true] [1 1 1 1 1 1 1 1 1 1]
+
+Execute 3
+101 add config 1
+{1 [100 100 100 100 100 100 100 100 100 100] map[100:[server-100-0 server-100-1 server-100-2]]}
+[false false false false false false false false false false] [1 1 1 1 1 1 1 1 1 1]
+
+100 Put
+Execute 3
+101 add config 1
+{1 [100 100 100 100 100 100 100 100 100 100] map[100:[server-100-0 server-100-1 server-100-2]]}
+[false false false false false false false false false false] [1 1 1 1 1 1 1 1 1 1]
+
+Execute 3
+101 add config 1
+{1 [100 100 100 100 100 100 100 100 100 100] map[100:[server-100-0 server-100-1 server-100-2]]}
+[false false false false false false false false false false] [1 1 1 1 1 1 1 1 1 1]
+
+Execute 1
+apply 1
+result = jEqeG
+Execute 1
+apply 1
+result = jEqeG
+Execute 1
+apply 1
+result = jEqeG
+Execute 3
+102 add config 1
+{1 [100 100 100 100 100 100 100 100 100 100] map[100:[server-100-0 server-100-1 server-100-2]]}
+[false false false false false false false false false false] [1 1 1 1 1 1 1 1 1 1]
+
+100 Put
+Execute 3
+102 add config 1
+{1 [100 100 100 100 100 100 100 100 100 100] map[100:[server-100-0 server-100-1 server-100-2]]}
+[false false false false false false false false false false] [1 1 1 1 1 1 1 1 1 1]
+
+Execute 3
+102 add config 1
+{1 [100 100 100 100 100 100 100 100 100 100] map[100:[server-100-0 server-100-1 server-100-2]]}
+[false false false false false false false false false false] [1 1 1 1 1 1 1 1 1 1]
+
+Execute 1
+apply 1
+result = nZ0IG
+100 Put
+Execute 1
+apply 1
+result = nZ0IG
+Execute 1
+apply 1
+result = nZ0IG
+Execute 1
+apply 1
+result = zJwe2
+Execute 1
+apply 1
+result = zJwe2
+Execute 1
+100 Put
+apply 1
+result = zJwe2
+Execute 1
+apply 1
+result = hOqwt
+Execute 1
+apply 1
+result = hOqwt
+100 Put
+Execute 1
+apply 1
+result = hOqwt
+Execute 1
+apply 1
+result = kb0Ge
+100 Put
+Execute 1
+apply 1
+result = kb0Ge
+Execute 1
+apply 1
+result = kb0Ge
+Execute 1
+apply 1
+result = ADF3N
+Execute 1
+apply 1
+result = ADF3N
+100 Put
+Execute 1
+apply 1
+result = ADF3N
+Execute 1
+apply 1
+result = Ih8u6
+Execute 1
+apply 1
+result = Ih8u6
+Execute 1
+apply 1
+result = Ih8u6
+100 Put
+Execute 1
+apply 1
+result = TxdSv
+Execute 1
+apply 1
+result = TxdSv
+Execute 1
+apply 1
+result = TxdSv
+100 Put
+Execute 1
+apply 1
+result = EdVK9
+100 Put
+Execute 1
+apply 1
+result = EdVK9
+Execute 1
+apply 1
+result = EdVK9
+Execute 1
+apply 1
+result = imw38
+Execute 1
+apply 1
+result = imw38
+Execute 1
+apply 1
+result = imw38
+Execute 0
+apply 0
+result = jEqeG
+Execute 0
+apply 0
+result = jEqeG
+Execute 0
+apply 0
+result = jEqeG
+Execute 0
+apply 0
+result = nZ0IG
+Execute 0
+apply 0
+result = nZ0IG
+Execute 0
+apply 0
+result = nZ0IG
+Execute 0
+apply 0
+result = zJwe2
+Execute 0
+apply 0
+result = zJwe2
+Execute 0
+apply 0
+result = hOqwt
+Execute 0
+apply 0
+result = hOqwt
+Execute 0
+apply 0
+result = zJwe2
+Execute 0
+apply 0
+result = kb0Ge
+Execute 0
+apply 0
+result = hOqwt
+Execute 0
+apply 0
+result = kb0Ge
+Execute 0
+apply 0
+result = kb0Ge
+Execute 0
+apply 0
+result = ADF3N
+Execute 0
+apply 0
+result = ADF3N
+Execute 0
+apply 0
+result = ADF3N
+Execute 0
+apply 0
+result = Ih8u6
+Execute 0
+apply 0
+result = Ih8u6
+Execute 0
+apply 0
+result = Ih8u6
+Execute 0
+apply 0
+result = TxdSv
+Execute 0
+apply 0
+result = TxdSv
+Execute 0
+apply 0
+result = TxdSv
+Execute 0
+apply 0
+result = EdVK9
+Execute 0
+apply 0
+result = EdVK9
+Execute 0
+apply 0
+result = EdVK9
+Execute 0
+apply 0
+result = imw38
+Execute 0
+apply 0
+result = imw38
+Execute 0
+apply 0
+result = imw38
+Execute 3
+102 add config 2
+{2 [100 100 100 100 100 101 101 101 101 101] map[100:[server-100-0 server-100-1 server-100-2] 101:[server-101-0 server-101-1 server-101-2]]}
+[false false false false false false false false false false] [2 2 2 2 2 2 2 2 2 2]
+
+Execute 3
+102 add config 2
+Execute 3
+102 add config 2
+{2 [100 100 100 100 100 101 101 101 101 101] map[100:[server-100-0 server-100-1 server-100-2] 101:[server-101-0 server-101-1 server-101-2]]}
+{2 [100 100 100 100 100 101 101 101 101 101] map[100:[server-100-0 server-100-1 server-100-2] 101:[server-101-0 server-101-1 server-101-2]]}
+[false false false false false false false false false false] [2 2 2 2 2 2 2 2 2 2]
+
+Execute 0
+apply 0
+result = jEqeG
+[false false false false false false false false false false] [2 2 2 2 2 2 2 2 2 2]
+
+100 Put
+Execute 0
+apply 0
+result = jEqeG
+Execute 0
+apply 0
+result = jEqeG
+Execute 2
+apply 2
+Execute 2
+apply 2
+Execute 2
+apply 2
+Execute 0
+apply 0
+result = nZ0IG
+100 Put
+Execute 0
+apply 0
+result = nZ0IG
+Execute 2
+apply 2
+Execute 0
+apply 0
+result = nZ0IG
+Execute 2
+apply 2
+Execute 2
+apply 2
+Execute 0
+apply 0
+result = zJwe2
+100 Put
+Execute 0
+apply 0
+result = zJwe2
+Execute 0
+apply 0
+result = zJwe2
+Execute 2
+apply 2
+Execute 2
+apply 2
+Execute 2
+apply 2
+Execute 0
+apply 0
+result = hOqwt
+100 Put
+Execute 0
+apply 0
+result = hOqwt
+Execute 0
+apply 0
+result = hOqwt
+Execute 2
+apply 2
+Execute 2
+apply 2
+Execute 2
+apply 2
+Execute 0
+apply 0
+result = kb0Ge
+100 Put
+Execute 0
+apply 0
+result = kb0Ge
+Execute 0
+apply 0
+result = kb0Ge
+Execute 2
+apply 2
+Execute 2
+apply 2
+Execute 2
+apply 2
+Execute 0
+apply 0
+result = ADF3N
+100 Put
+Execute 0
+apply 0
+result = ADF3N
+Execute 0
+apply 0
+result = ADF3N
+Execute 2
+apply 2
+Execute 2
+apply 2
+Execute 3
+100 add config 2
+{2 [100 100 100 100 100 101 101 101 101 101] map[100:[server-100-0 server-100-1 server-100-2] 101:[server-101-0 server-101-1 server-101-2]]}
+[true true true true true true true true true true] [2 2 2 2 2 1 1 1 1 1]
+
+Execute 3
+100 add config 2
+{2 [100 100 100 100 100 101 101 101 101 101] map[100:[server-100-0 server-100-1 server-100-2] 101:[server-101-0 server-101-1 server-101-2]]}
+Execute 3
+[true true true true true true true true true true] [2 2 2 2 2 1 1 1 1 1]
+
+101 add config 2
+{2 [100 100 100 100 100 101 101 101 101 101] map[100:[server-100-0 server-100-1 server-100-2] 101:[server-101-0 server-101-1 server-101-2]]}
+[false false false false false false false false false false] [2 2 2 2 2 1 1 1 1 1]
+
+Execute 3
+101 add config 2
+{2 [100 100 100 100 100 101 101 101 101 101] map[100:[server-100-0 server-100-1 server-100-2] 101:[server-101-0 server-101-1 server-101-2]]}
+[false false false false false false false false false false] [2 2 2 2 2 1 1 1 1 1]
+
+Execute 0
+apply 0
+result = Ih8u6
+Execute 0
+apply 0
+result = Ih8u6
+Execute 3
+101 add config 2
+{2 [100 100 100 100 100 101 101 101 101 101] map[100:[server-100-0 server-100-1 server-100-2] 101:[server-101-0 server-101-1 server-101-2]]}
+[false false false false false false false false false false] [2 2 2 2 2 1 1 1 1 1]
+
+100 Put
+Execute 2
+apply 2
+Execute 2
+apply 2
+Execute 2
+apply 2
+Execute 3
+100 add config 2
+{2 [100 100 100 100 100 101 101 101 101 101] map[100:[server-100-0 server-100-1 server-100-2] 101:[server-101-0 server-101-1 server-101-2]]}
+[true true true true true true true true true true] [2 2 2 2 2 1 1 1 1 1]
+
+Execute 0
+apply 0
+result = Ih8u6
+Execute 2
+apply 2
+Execute 5
+101 9 version++
+[false false false false false false false false false true] [2 2 2 2 2 1 1 1 1 2]
+
+Execute 5
+101 7 version++
+[false false false false false false false true false true] [2 2 2 2 2 1 1 2 1 2]
+
+Execute 5
+101 6 version++
+[false false false false false false true true false true] [2 2 2 2 2 1 2 2 1 2]
+
+Execute 5
+101 9 version++
+[false false false false false false false false false true] [2 2 2 2 2 1 1 1 1 2]
+
+Execute 5
+101 7 version++
+[false false false false false false false true false true] [2 2 2 2 2 1 1 2 1 2]
+
+Execute 5
+101 6 version++
+[false false false false false false true true false true] [2 2 2 2 2 1 2 2 1 2]
+
+Execute 5
+101 5 version++
+[false false false false false true true true false true] [2 2 2 2 2 2 2 2 1 2]
+
+Execute 5
+101 8 version++
+[false false false false false true true true true true] [2 2 2 2 2 2 2 2 2 2]
+
+Execute 5
+101 9 version++
+[false false false false false false false false false true] [2 2 2 2 2 1 1 1 1 2]
+
+Execute 5
+101 7 version++
+[false false false false false false false true false true] [2 2 2 2 2 1 1 2 1 2]
+
+Execute 5
+101 5 version++
+[false false false false false true true true false true] [2 2 2 2 2 2 2 2 1 2]
+
+Execute 5
+101 8 version++
+[false false false false false true true true true true] [2 2 2 2 2 2 2 2 2 2]
+
+Execute 5
+101 6 version++
+[false false false false false false true true false true] [2 2 2 2 2 1 2 2 1 2]
+
+Execute 5
+101 5 version++
+[false false false false false true true true false true] [2 2 2 2 2 2 2 2 1 2]
+
+Execute 5
+101 8 version++
+[false false false false false true true true true true] [2 2 2 2 2 2 2 2 2 2]
+
+Execute 4
+100 9 version++
+[true true true true true true true true true false] [2 2 2 2 2 1 1 1 1 2]
+
+Execute 4
+100 6 version++
+[true true true true true true false true true false] [2 2 2 2 2 1 2 1 1 2]
+
+Execute 4
+100 9 version++
+[true true true true true true true true true false] [2 2 2 2 2 1 1 1 1 2]
+
+Execute 4
+100 6 version++
+[true true true true true true false true true false] [2 2 2 2 2 1 2 1 1 2]
+
+Execute 4
+100 9 version++
+[true true true true true true true true true false] [2 2 2 2 2 1 1 1 1 2]
+
+Execute 4
+100 6 version++
+[true true true true true true false true true false] [2 2 2 2 2 1 2 1 1 2]
+
+Execute 4
+100 7 version++
+[true true true true true true false false true false] [2 2 2 2 2 1 2 2 1 2]
+
+Execute 4
+100 5 version++
+[true true true true true false false false true false] [2 2 2 2 2 2 2 2 1 2]
+
+Execute 4
+100 8 version++
+[true true true true true false false false false false] [2 2 2 2 2 2 2 2 2 2]
+
+Execute 4
+100 7 version++
+[true true true true true true false false true false] [2 2 2 2 2 1 2 2 1 2]
+
+Execute 4
+100 5 version++
+[true true true true true false false false true false] [2 2 2 2 2 2 2 2 1 2]
+
+Execute 4
+100 8 version++
+[true true true true true false false false false false] [2 2 2 2 2 2 2 2 2 2]
+
+Execute 4
+100 7 version++
+[true true true true true true false false true false] [2 2 2 2 2 1 2 2 1 2]
+
+Execute 4
+100 5 version++
+[true true true true true false false false true false] [2 2 2 2 2 2 2 2 1 2]
+
+Execute 4
+100 8 version++
+[true true true true true false false false false false] [2 2 2 2 2 2 2 2 2 2]
+
+Execute 0
+apply 0
+result = TxdSv
+101 Put
+Execute 0
+apply 0
+result = TxdSv
+Execute 2
+apply 2
+Execute 0
+apply 0
+result = TxdSv
+Execute 2
+apply 2
+Execute 2
+apply 2
+Execute 0
+apply 0
+result = EdVK9
+Execute 0
+apply 0
+result = EdVK9
+101 Put
+Execute 0
+apply 0
+result = EdVK9
+Execute 2
+apply 2
+Execute 2
+apply 2
+Execute 2
+apply 2
+Execute 0
+apply 0
+result = imw38
+101 Put
+Execute 0
+apply 0
+result = imw38
+Execute 0
+apply 0
+result = imw38
+Execute 2
+apply 2
+Execute 2
+apply 2
+Execute 2
+apply 2
+signal: interrupt
+FAIL	6.824/shardkv	4.576s

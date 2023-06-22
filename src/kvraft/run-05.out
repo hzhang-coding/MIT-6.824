@@ -1,0 +1,51 @@
+Test: one client (3A) ...
+Leader of term 1 is 1
+  ... Passed --  15.2  5  4603  460
+Test: ops complete fast enough (3A) ...
+Leader of term 1 is 1
+race: limit on 8128 simultaneously alive goroutines is exceeded, dying
+exit status 66
+FAIL	6.824/kvraft	585.783s
+Test: one client (3A) ...
+Leader of term 1 is 4
+  ... Passed --  15.2  5  4617  447
+Test: ops complete fast enough (3A) ...
+Leader of term 1 is 1
+race: limit on 8128 simultaneously alive goroutines is exceeded, dying
+exit status 66
+FAIL	6.824/kvraft	320.018s
+Test: one client (3A) ...
+Leader of term 1 is 1
+  ... Passed --  15.2  5  4590  455
+Test: ops complete fast enough (3A) ...
+Leader of term 1 is 2
+race: limit on 8128 simultaneously alive goroutines is exceeded, dying
+exit status 66
+FAIL	6.824/kvraft	291.437s
+Test: one client (3A) ...
+Leader of term 1 is 3
+  ... Passed --  15.2  5  4557  452
+Test: ops complete fast enough (3A) ...
+Leader of term 1 is 0
+race: limit on 8128 simultaneously alive goroutines is exceeded, dying
+exit status 66
+FAIL	6.824/kvraft	327.920s
+Test: one client (3A) ...
+Leader of term 1 is 1
+  ... Passed --  15.2  5  4566  454
+Test: ops complete fast enough (3A) ...
+Leader of term 1 is 0
+race: limit on 8128 simultaneously alive goroutines is exceeded, dying
+exit status 66
+FAIL	6.824/kvraft	313.453s
+Test: one client (3A) ...
+Leader of term 1 is 0
+  ... Passed --  15.2  5  4565  454
+Test: ops complete fast enough (3A) ...
+Leader of term 1 is 2
+signal: interrupt
+FAIL	6.824/kvraft	123.014s
+Test: one client (3A) ...
+Leader of term 1 is 3
+signal: interrupt
+FAIL	6.824/kvraft	0.623s

@@ -1,0 +1,190 @@
+Test: one client (3A) ...
+Leader of term 1 is 0
+  ... Passed --  15.2  5  5686  590
+Test: ops complete fast enough (3A) ...
+Leader of term 1 is 0
+  ... Passed --  33.4  3  5907    0
+Test: many clients (3A) ...
+Leader of term 1 is 1
+  ... Passed --  16.2  5  4965 1200
+Test: unreliable net, many clients (3A) ...
+Leader of term 1 is 0
+  ... Passed --  16.9  5  4006  861
+Test: concurrent append to same key, unreliable (3A) ...
+Leader of term 1 is 0
+  ... Passed --   0.9  3   166   52
+Leader of term 1 is 4
+Test: progress in majority (3A) ...
+Leader of term 2 is 0
+  ... Passed --   0.6  5    95    2
+Test: no progress in minority (3A) ...
+  ... Passed --   1.0  5   146    3
+Test: completion after heal (3A) ...
+  ... Passed --   1.0  5    76    3
+Test: partitions, one client (3A) ...
+Leader of term 1 is 3
+Leader of term 5 is 0
+Leader of term 8 is 0
+Leader of term 9 is 2
+Leader of term 10 is 0
+Leader of term 12 is 0
+Leader of term 17 is 0
+Leader of term 25 is 0
+Leader of term 28 is 4
+Leader of term 32 is 3
+  ... Passed --  22.9  5  7299  553
+Test: partitions, many clients (3A) ...
+Leader of term 1 is 3
+Leader of term 4 is 3
+Leader of term 8 is 3
+Leader of term 11 is 3
+Leader of term 15 is 3
+Leader of term 19 is 3
+Leader of term 23 is 2
+Leader of term 24 is 3
+Leader of term 25 is 4
+Leader of term 28 is 4
+Leader of term 31 is 4
+  ... Passed --  23.1  5  8015 1090
+Test: restarts, one client (3A) ...
+Leader of term 1 is 0
+Leader of term 2 is 3
+Leader of term 3 is 2
+Leader of term 4 is 2
+  ... Passed --  19.6  5  7112  595
+Test: restarts, many clients (3A) ...
+Leader of term 1 is 4
+Leader of term 2 is 1
+Leader of term 3 is 3
+Leader of term 4 is 3
+  ... Passed --  21.3  5  8308 1078
+Test: unreliable net, restarts, many clients (3A) ...
+Leader of term 1 is 2
+Leader of term 2 is 0
+Leader of term 4 is 0
+Leader of term 6 is 0
+  ... Passed --  21.7  5  5078  866
+Test: restarts, partitions, many clients (3A) ...
+Leader of term 1 is 2
+Leader of term 6 is 2
+Leader of term 9 is 2
+Leader of term 13 is 2
+Leader of term 14 is 0
+Leader of term 15 is 1
+Leader of term 19 is 1
+Leader of term 22 is 1
+Leader of term 23 is 3
+Leader of term 24 is 3
+Leader of term 26 is 0
+Leader of term 29 is 3
+Leader of term 34 is 3
+Leader of term 37 is 3
+Leader of term 38 is 1
+  ... Passed --  27.7  5 10489 1152
+Test: unreliable net, restarts, partitions, many clients (3A) ...
+Leader of term 1 is 4
+Leader of term 7 is 0
+Leader of term 8 is 4
+Leader of term 15 is 4
+Leader of term 16 is 3
+Leader of term 21 is 3
+Leader of term 23 is 3
+Leader of term 27 is 3
+Leader of term 28 is 3
+Leader of term 31 is 3
+Leader of term 35 is 1
+Leader of term 39 is 1
+Leader of term 40 is 3
+  ... Passed --  28.3  5  5458  758
+Test: unreliable net, restarts, partitions, random keys, many clients (3A) ...
+Leader of term 1 is 3
+Leader of term 6 is 4
+Leader of term 7 is 6
+Leader of term 8 is 1
+Leader of term 13 is 1
+Leader of term 14 is 0
+Leader of term 18 is 0
+Leader of term 21 is 0
+Leader of term 25 is 0
+Leader of term 26 is 0
+Leader of term 27 is 1
+Leader of term 30 is 1
+Leader of term 34 is 1
+Leader of term 35 is 2
+  ... Passed --  35.7  7 10327  963
+PASS
+ok  	6.824/kvraft	286.406s
+Test: one client (3A) ...
+Leader of term 1 is 1
+  ... Passed --  15.3  5  5531  545
+Test: ops complete fast enough (3A) ...
+Leader of term 1 is 1
+--- FAIL: TestSpeed3A (49.86s)
+    test_test.go:419: Operations completed too slowly 49.432681ms/op > 33.333333ms/op
+Test: many clients (3A) ...
+Leader of term 1 is 2
+  ... Passed --  25.9  5  5617 1004
+Test: unreliable net, many clients (3A) ...
+Leader of term 1 is 0
+  ... Passed --  16.8  5  3951  775
+Test: concurrent append to same key, unreliable (3A) ...
+Leader of term 1 is 0
+  ... Passed --   1.1  3   180   52
+Leader of term 1 is 4
+Test: progress in majority (3A) ...
+Leader of term 2 is 0
+  ... Passed --   0.6  5   148    2
+Test: no progress in minority (3A) ...
+  ... Passed --   1.0  5   123    3
+Test: completion after heal (3A) ...
+  ... Passed --   1.0  5    72    3
+Test: partitions, one client (3A) ...
+Leader of term 1 is 4
+Leader of term 5 is 4
+Leader of term 9 is 4
+Leader of term 10 is 2
+Leader of term 11 is 4
+Leader of term 14 is 4
+Leader of term 19 is 4
+Leader of term 22 is 3
+Leader of term 23 is 4
+Leader of term 27 is 4
+Leader of term 29 is 4
+Leader of term 33 is 2
+  ... Passed --  23.0  5  7254  514
+Test: partitions, many clients (3A) ...
+Leader of term 1 is 0
+Leader of term 7 is 2
+Leader of term 12 is 1
+Leader of term 15 is 1
+Leader of term 18 is 1
+Leader of term 22 is 4
+Leader of term 25 is 4
+Leader of term 28 is 4
+Leader of term 31 is 4
+Leader of term 35 is 4
+  ... Passed --  24.8  5  8456 1129
+Test: restarts, one client (3A) ...
+Leader of term 1 is 2
+Leader of term 3 is 4
+Leader of term 4 is 3
+Leader of term 5 is 1
+  ... Passed --  19.4  5  6032  497
+Test: restarts, many clients (3A) ...
+Leader of term 1 is 0
+Leader of term 2 is 3
+Leader of term 3 is 3
+Leader of term 4 is 1
+race: limit on 8128 simultaneously alive goroutines is exceeded, dying
+exit status 66
+FAIL	6.824/kvraft	382.941s
+Test: one client (3A) ...
+Leader of term 1 is 2
+  ... Passed --  15.2  5  5085  521
+Test: ops complete fast enough (3A) ...
+Leader of term 1 is 1
+signal: interrupt
+FAIL	6.824/kvraft	28.318s
+Test: one client (3A) ...
+signal: interrupt
+FAIL	6.824/kvraft	0.331s
